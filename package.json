@@ -1,0 +1,13 @@
+{
+  "name": "high-street-ui",
+  "theme": "ui",
+  "version": "0.0.1",
+  "description": "A dark colored UI theme for Atom with custom file icons.",
+  "repository": "https://github.com/Chochstr/high-street-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.99.0"
+  },
+  "readme": "# Seti UI\n\nA dark colored UI theme for Atom with custom file icons. \n\n\n### Installation\n\n```\ncd ~/.atom/packages\n\n\n### Currently Supported File Icons\n* Bower\n* Coffescript\n* CSS\n* EJS\n* Favicon\n* Go\n* Grunt\n* Gulp\n* Handlebars\n* HTML\n* Image\n* Jade\n* Javascript\n* JSON\n* Julia\n* Less\n* LICENSE\n* Markdown\n* Mustache\n* PHP\n* Procfile\n* Python\n* React\n* Ruby\n* Sass\n* Stache\n* Stylus\n* Text\n* Typescript\n* XML\n* YML\n",
+  "readmeFilename": "README.md"
+}
