@@ -1,6 +1,5 @@
 @import "ui-variables";
 
-
 .icon-tab( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: -3px; @left: -5px; @offset: -6px) {
 
   tabs-bar tabs-tab .title[data-name$="@{extension}"], .tab-bar .tab .title[data-name$="@{extension}"] {
@@ -24,7 +23,6 @@
   tabs-bar tabs-tab.active .title[data-name$="@{extension}"], tab-bar .tab.active .title[data-name$="@{extension}"] {
     top: @offset;
   }
-
 }
 
 .icon-tree( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px) {
@@ -48,10 +46,7 @@
         color: ~"@{color-@{type}}";
       }
     }
-
   }
-
-
 }
 
 
