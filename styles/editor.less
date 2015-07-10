@@ -13,6 +13,7 @@ atom-text-editor[mini], atom-text-editor[mini]::shadow {
   .cursor {
     border-color: @input-text-color;
   }
+  
   .selection .region {
     background-color: darken(@input-background-color, 10%);
   }
@@ -21,50 +22,13 @@ atom-text-editor[mini], atom-text-editor[mini]::shadow {
 atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
   color: @input-text-color-selected;
   background-color: @input-background-color;
+
   .selection .region {
     background-color: desaturate(@background-color-info, 50%);
   }
 }
 
 atom-text-editor, atom-text-editor::shadow {
-  .gutter .line-number {
-    padding-left: 10px;
-  }
-
-  .gutter .line-number.git-line-ignored {
-    border-color: @color-status-ignored;
-    opacity: 1;
-    padding-left: 8px;
-  }
-
-  .gutter .line-number.git-line-added {
-    border-color: @color-status-added;
-    opacity: 1;
-    padding-left: 8px;
-  }
-
-  .gutter .line-number.git-line-renamed {
-    border-color: @color-status-renamed;
-    opacity: 1;
-    padding-left: 8px;
-  }
-
-  .gutter .line-number.git-line-modified {
-    border-color: @color-status-modified;
-    opacity: 1;
-    padding-left: 8px;
-  }
-
-  .gutter .line-number.git-line-removed {
-    border-color: @color-status-removed;
-    opacity: 1;
-    padding-left: 8px;
-  }
-
-  // FIXME: these should go in syntax themes?
-  .gutter.drop-shadow {
-    -webkit-box-shadow: -2px 0 10px 2px #222;
-  }
 
   .highlighted.selection .region {
     -webkit-animation-name: highlight;
