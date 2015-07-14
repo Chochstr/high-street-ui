@@ -7,6 +7,15 @@
     color: @text-color-selected;
   }
 
+  .link {
+    color: @orange;
+
+    &:hover {
+      color: lighten(@orange, 10%);;
+      text-decoration: none;
+    }
+  }
+
   input[type="checkbox"] {
     &:checked {
       background-color: @checkbox-background-color;
@@ -15,6 +24,14 @@
     &:before,
     &:after {
       background-color: @checkbox-tick-color;
+    }
+  }
+
+  .package-card {
+    background-color: lighten(@background, 10%);
+
+    &:hover {
+      background-color: inherit;
     }
   }
 
@@ -27,7 +44,11 @@
     color: lighten(@text-color-subtle, 10%);
   }
 
-  .config-menu .nav > li > a:hover {
-    color: red;
+  .config-menu {
+    background: @background;
+
+    .nav > li > a:hover {
+      color: @orange;
+    }
   }
 }

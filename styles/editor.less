@@ -13,10 +13,6 @@ atom-text-editor[mini], atom-text-editor[mini]::shadow {
   .cursor {
     border-color: @input-text-color;
   }
-  
-  .selection .region {
-    background-color: darken(@input-background-color, 10%);
-  }
 }
 
 atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
@@ -24,7 +20,7 @@ atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
   background-color: @input-background-color;
 
   .selection .region {
-    background-color: desaturate(@background-color-info, 50%);
+    background-color: desaturate(@background-color-info, 25%);
   }
 }
 
